@@ -12,5 +12,19 @@
         "fix": "Move to environment variables"
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-19T18:05:20.464306",
+    "issues_found": 1,
+    "fixes_generated": 0,
+    "issues": [
+      {
+        "file": "routes/businesses.js",
+        "line": 40,
+        "type": "hardcoded_secret",
+        "severity": "HIGH",
+        "fix": "Move to environment variables"
+      }
+    ]
   }
 ]
