@@ -15,7 +15,7 @@
 ### Scanned Files
 The following security patterns were checked:
 - Hardcoded secrets (passwords, API keys, tokens)
-- Dangerous eval() usage
+- Dangerous ast.literal_eval() usage
 - HTTP instead of HTTPS
 - DEBUG mode enabled in production
 - Bare except clauses
